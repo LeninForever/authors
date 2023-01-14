@@ -1,0 +1,130 @@
+﻿05.12.2021 0:06:40 Невозможно разрешить удаленное имя: 'www.culture.ru'
+   в System.Net.HttpWebRequest.GetResponse()
+   в HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1665
+   в HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method, WebProxy proxy, NetworkCredential creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 2097
+   в HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1286
+   в HtmlAgilityPack.HtmlWeb.Load(String url) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1183
+   в RGR.HtmlWorker.GetWritersCards() в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\HtmlWorker.cs:строка 22
+   в RGR.DBWorker.LoadInformamtion(Object sender, DoWorkEventArgs eventArgs) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\DBWorker.cs:строка 44
+
+05.12.2021 0:11:02 Must declare the scalar variable "@BirthDate".
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader()
+   в RGR.DBWorker.SelectWriter(Writer writer) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\DBWorker.cs:строка 139
+   в RGR.DBWorker.InserNewtWriter(Writer writer) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\DBWorker.cs:строка 78
+   в RGR.DBWorker.LoadInformamtion(Object sender, DoWorkEventArgs eventArgs) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\DBWorker.cs:строка 62
+
+05.12.2021 15:23:14 Значение '01.01.0001 0:00:00' недопустимо для 'Value'. 'Value' должно лежать в диапазоне от 'MinDate' до 'MaxDate'.
+Имя параметра: Value
+   в System.Windows.Forms.DateTimePicker.set_Value(DateTime value)
+   в RGR.Form1.writersDataGridView_SelectionChanged(Object sender, EventArgs e) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\Form1.cs:строка 104
+
+05.12.2021 15:24:44 Значение '01.01.0001 0:00:00' недопустимо для 'Value'. 'Value' должно лежать в диапазоне от 'MinDate' до 'MaxDate'.
+Имя параметра: Value
+   в System.Windows.Forms.DateTimePicker.set_Value(DateTime value)
+   в RGR.Form1.writersDataGridView_SelectionChanged(Object sender, EventArgs e) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\Form1.cs:строка 104
+
+05.12.2021 15:24:51 Значение '01.01.0001 0:00:00' недопустимо для 'Value'. 'Value' должно лежать в диапазоне от 'MinDate' до 'MaxDate'.
+Имя параметра: Value
+   в System.Windows.Forms.DateTimePicker.set_Value(DateTime value)
+   в RGR.Form1.writersDataGridView_SelectionChanged(Object sender, EventArgs e) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\Form1.cs:строка 104
+
+05.12.2021 15:24:54 Значение '01.01.0001 0:00:00' недопустимо для 'Value'. 'Value' должно лежать в диапазоне от 'MinDate' до 'MaxDate'.
+Имя параметра: Value
+   в System.Windows.Forms.DateTimePicker.set_Value(DateTime value)
+   в RGR.Form1.writersDataGridView_SelectionChanged(Object sender, EventArgs e) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\Form1.cs:строка 104
+
+05.12.2021 15:24:59 Значение '01.01.0001 0:00:00' недопустимо для 'Value'. 'Value' должно лежать в диапазоне от 'MinDate' до 'MaxDate'.
+Имя параметра: Value
+   в System.Windows.Forms.DateTimePicker.set_Value(DateTime value)
+   в RGR.Form1.writersDataGridView_SelectionChanged(Object sender, EventArgs e) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\Form1.cs:строка 104
+
+05.12.2021 15:25:04 Значение '01.01.0001 0:00:00' недопустимо для 'Value'. 'Value' должно лежать в диапазоне от 'MinDate' до 'MaxDate'.
+Имя параметра: Value
+   в System.Windows.Forms.DateTimePicker.set_Value(DateTime value)
+   в RGR.Form1.writersDataGridView_SelectionChanged(Object sender, EventArgs e) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\Form1.cs:строка 104
+
+05.12.2021 15:25:17 Значение '01.01.0001 0:00:00' недопустимо для 'Value'. 'Value' должно лежать в диапазоне от 'MinDate' до 'MaxDate'.
+Имя параметра: Value
+   в System.Windows.Forms.DateTimePicker.set_Value(DateTime value)
+   в RGR.Form1.writersDataGridView_SelectionChanged(Object sender, EventArgs e) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\Form1.cs:строка 104
+
+05.12.2021 15:27:18 Значение '01.01.0001 0:00:00' недопустимо для 'Value'. 'Value' должно лежать в диапазоне от 'MinDate' до 'MaxDate'.
+Имя параметра: Value
+   в System.Windows.Forms.DateTimePicker.set_Value(DateTime value)
+   в RGR.Form1.writersDataGridView_SelectionChanged(Object sender, EventArgs e) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\Form1.cs:строка 104
+
+05.12.2021 15:27:32 Значение '01.01.0001 0:00:00' недопустимо для 'Value'. 'Value' должно лежать в диапазоне от 'MinDate' до 'MaxDate'.
+Имя параметра: Value
+   в System.Windows.Forms.DateTimePicker.set_Value(DateTime value)
+   в RGR.Form1.writersDataGridView_SelectionChanged(Object sender, EventArgs e) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\Form1.cs:строка 104
+
+05.12.2021 15:27:35 Значение '01.01.0001 0:00:00' недопустимо для 'Value'. 'Value' должно лежать в диапазоне от 'MinDate' до 'MaxDate'.
+Имя параметра: Value
+   в System.Windows.Forms.DateTimePicker.set_Value(DateTime value)
+   в RGR.Form1.writersDataGridView_SelectionChanged(Object sender, EventArgs e) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\Form1.cs:строка 104
+
+05.12.2021 18:14:09 Невозможно разрешить удаленное имя: 'www.culture.ru'
+   в System.Net.HttpWebRequest.GetResponse()
+   в HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1665
+   в HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method, WebProxy proxy, NetworkCredential creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 2097
+   в HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1286
+   в HtmlAgilityPack.HtmlWeb.Load(String url) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1183
+   в RGR.HtmlWorker.GetWritersCards() в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\HtmlWorker.cs:строка 22
+   в RGR.DBWorker.LoadInformamtion(Object sender, DoWorkEventArgs eventArgs) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\DBWorker.cs:строка 50
+
+05.12.2021 18:14:19 Невозможно разрешить удаленное имя: 'www.culture.ru'
+   в System.Net.HttpWebRequest.GetResponse()
+   в HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1665
+   в HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method, WebProxy proxy, NetworkCredential creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 2097
+   в HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1286
+   в HtmlAgilityPack.HtmlWeb.Load(String url) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1183
+   в RGR.HtmlWorker.GetWritersCards() в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\HtmlWorker.cs:строка 22
+   в RGR.DBWorker.LoadInformamtion(Object sender, DoWorkEventArgs eventArgs) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\DBWorker.cs:строка 50
+
+05.12.2021 18:15:35 Невозможно разрешить удаленное имя: 'www.culture.ru'
+   в System.Net.HttpWebRequest.GetResponse()
+   в HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1665
+   в HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method, WebProxy proxy, NetworkCredential creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 2097
+   в HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1286
+   в HtmlAgilityPack.HtmlWeb.Load(String url) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1183
+   в RGR.HtmlWorker.GetWritersCards() в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\HtmlWorker.cs:строка 22
+   в RGR.DBWorker.LoadInformamtion(Object sender, DoWorkEventArgs eventArgs) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\DBWorker.cs:строка 50
+
+05.12.2021 18:16:58 Невозможно разрешить удаленное имя: 'www.culture.ru'
+   в System.Net.HttpWebRequest.GetResponse()
+   в HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1665
+   в HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method, WebProxy proxy, NetworkCredential creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 2097
+   в HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1286
+   в HtmlAgilityPack.HtmlWeb.Load(String url) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1183
+   в RGR.HtmlWorker.GetWritersCards() в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\HtmlWorker.cs:строка 22
+   в RGR.DBWorker.LoadInformamtion(Object sender, DoWorkEventArgs eventArgs) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\DBWorker.cs:строка 50
+
+06.12.2021 15:59:46 Невозможно разрешить удаленное имя: 'www.culture.ru'
+   в System.Net.HttpWebRequest.GetResponse()
+   в HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1665
+   в HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method, WebProxy proxy, NetworkCredential creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 2097
+   в HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1286
+   в HtmlAgilityPack.HtmlWeb.Load(String url) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1183
+   в RGR.HtmlWorker.GetWritersCards() в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\HtmlWorker.cs:строка 23
+   в RGR.DBWorker.LoadInformamtion(Object sender, DoWorkEventArgs eventArgs) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\DBWorker.cs:строка 55
+
+06.12.2021 18:47:57 Невозможно разрешить удаленное имя: 'www.culture.ru'
+   в System.Net.HttpWebRequest.GetResponse()
+   в HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1665
+   в HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method, WebProxy proxy, NetworkCredential creds) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 2097
+   в HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1286
+   в HtmlAgilityPack.HtmlWeb.Load(String url) в C:\Repos\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:строка 1183
+   в RGR.HtmlWorker.GetWritersCards() в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\HtmlWorker.cs:строка 23
+   в RGR.DBWorker.LoadInformamtion(Object sender, DoWorkEventArgs eventArgs) в C:\Users\igor_2\Desktop\уЧеба_3курс\.net\лабы\RGR\DBWorker.cs:строка 55
+
